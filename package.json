@@ -1,0 +1,22 @@
+{
+  "name": "realtime-comment",
+  "version": "1.0.0",
+  "description": "In this tutorial we have built a realtime comment system.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.2",
+    "mongoose": "^5.13.14",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
